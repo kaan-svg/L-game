@@ -1,1 +1,40 @@
-<svg height="128" width="128" xmlns="http://www.w3.org/2000/svg"><rect x="2" y="2" width="124" height="124" rx="14" fill="#363d52" stroke="#212532" stroke-width="4"/><g transform="scale(.101) translate(122 122)"><g fill="#fff"><path d="M105 673v33q407 354 814 0v-33z"/><path fill="#478cbf" d="m105 673 152 14q12 1 15 14l4 67 132 10 8-61q2-11 15-15h162q13 4 15 15l8 61 132-10 4-67q3-13 15-14l152-14V427q30-39 56-81-35-59-83-108-43 20-82 47-40-37-88-64 7-51 8-102-59-28-123-42-26 43-46 89-49-7-98 0-20-46-46-89-64 14-123 42 1 51 8 102-48 27-88 64-39-27-82-47-48 49-83 108 26 42 56 81zm0 33v39c0 276 813 276 813 0v-39l-134 12-5 69q-2 10-14 13l-162 11q-12 0-16-11l-10-65H447l-10 65q-4 11-16 11l-162-11q-12-3-14-13l-5-69z"/><path d="M483 600c3 34 55 34 58 0v-86c-3-34-55-34-58 0z"/><circle cx="725" cy="526" r="90"/><circle cx="299" cy="526" r="90"/></g><g fill="#414042"><circle cx="307" cy="532" r="60"/><circle cx="717" cy="532" r="60"/></g></g></svg>
+<svg height="128" width="128" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background (same size and frame as before) -->
+  <rect x="2" y="2" width="124" height="124" rx="14" fill="#363d52" stroke="#212532" stroke-width="4"/>
+
+  <!-- Plume -->
+  <path d="M62 34 C56 16 74 6 94 12 C84 16 78 22 74 34 Z" fill="#e74c3c" stroke="#212532" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Body / tabard -->
+  <path d="M28 120 Q30 94 50 88 H78 Q98 94 100 120 Z" fill="#478cbf" stroke="#212532" stroke-width="3" stroke-linejoin="round"/>
+  <rect x="58" y="92" width="12" height="28" fill="#f1c40f" stroke="#212532" stroke-width="2"/>
+
+  <!-- Shoulder pads -->
+  <circle cx="34" cy="98" r="10" fill="#c9d1dc" stroke="#212532" stroke-width="3"/>
+  <circle cx="94" cy="98" r="10" fill="#c9d1dc" stroke="#212532" stroke-width="3"/>
+
+  <!-- Helmet -->
+  <path d="M38 64 Q38 32 64 32 Q90 32 90 64 V80 Q90 90 80 90 H48 Q38 90 38 80 Z" fill="#c9d1dc" stroke="#212532" stroke-width="3" stroke-linejoin="round"/>
+  <rect x="61" y="33" width="6" height="20" rx="2" fill="#9aa4b5"/>
+  <!-- Visor slit with glowing eyes -->
+  <rect x="45" y="56" width="38" height="10" rx="5" fill="#212532"/>
+  <circle cx="56" cy="61" r="3" fill="#7fd4ff"/>
+  <circle cx="72" cy="61" r="3" fill="#7fd4ff"/>
+  <!-- Breathing holes -->
+  <circle cx="58" cy="76" r="2" fill="#5b6475"/>
+  <circle cx="64" cy="76" r="2" fill="#5b6475"/>
+  <circle cx="70" cy="76" r="2" fill="#5b6475"/>
+  <circle cx="61" cy="82" r="2" fill="#5b6475"/>
+  <circle cx="67" cy="82" r="2" fill="#5b6475"/>
+
+  <!-- Shield -->
+  <path d="M14 86 H42 V100 Q42 116 28 122 Q14 116 14 100 Z" fill="#c0392b" stroke="#212532" stroke-width="3" stroke-linejoin="round"/>
+  <rect x="25.5" y="91" width="5" height="24" fill="#f1c40f"/>
+  <rect x="18" y="99" width="20" height="5" fill="#f1c40f"/>
+
+  <!-- Sword -->
+  <path d="M103 50 L108 56 V96 H98 V56 Z" fill="#e5e9f0" stroke="#212532" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="93" y="95" width="20" height="6" rx="2" fill="#f1c40f" stroke="#212532" stroke-width="2"/>
+  <rect x="100" y="101" width="6" height="12" fill="#8b5a2b" stroke="#212532" stroke-width="2"/>
+  <circle cx="103" cy="116" r="4" fill="#f1c40f" stroke="#212532" stroke-width="2"/>
+</svg>
